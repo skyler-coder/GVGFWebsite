@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9963.jpg",
+      "teamName": "God's Vineyard FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/godsvineyardfc",
+      "link": "godsvineyardfc"
+    },
+    {
+      "id": 2,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9931.jpg",
+      "teamName": "Giant Hillers FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/gianthillersfc",
+      "link": "gianthillersfc"
+    },
+    {
+      "id": 3,
+      "url": "images/Carousel_Images/16_team_photos/PXP-0219.jpg",
+      "teamName": "West Of Mines Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/westofminesfc",
+      "link": "westofminesfc"
+    },
+    {
+      "id": 4,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9938.jpg",
+      "teamName": "Jenta Adamu FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/jentaadamufc",
+      "link": "jentaadamufc"
+    },
+    {
+      "id": 5,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9942.jpg",
+      "teamName": "Rukuba Road FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/rukubaroadfc",
+      "link": "rukubaroadfc"
+    },
+    {
+      "id": 6,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9944.jpg",
+      "teamName": "Farin Gada FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/faringadafc",
+      "link": "faringadafc"
+    },
+    {
+      "id": 7,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9951.jpg",
+      "teamName": "Tudun Wada FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/tudunwadafc",
+      "link": "tudunwadafc"
+    },
+    {
+      "id": 8,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9955.jpg",
+      "teamName": "Saint Peters FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/saintpetersfc",
+      "link": "saintpetersfc"
+    },
+    {
+      "id": 9,
+      "url": "images/Carousel_Images/16_team_photos/PXP-0175.jpg",
+      "teamName": "Glory FC/ Bank FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/gloryfc",
+      "link": "gloryfc"
+    },
+    {
+      "id": 10,
+      "url": "images/Carousel_Images/16_team_photos/PXP-9958.jpg",
+      "teamName": "Police Ambassadors Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/policeambassadors",
+      "link": "policeambassadors"
+    },
+    
+    {
+      "id": 11,
+      "url": "images/Carousel_Images/16_team_photos/PXP-0176.jpg",
+      "teamName": "Alama FC Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/alamafc",
+      "link": "alamafc"
+    },
+    
+    {
+      "id": 12,
+      "url": "images/Carousel_Images/16_team_photos/MVIMG_20240710_163659.jpg",
+      "teamName": "Redeemed FC Katako Highlights",
+      "buttonName": "Visit the Event",
+      "path": "/redeemedfc",
+      "link": "redeemedfc"
+    },
+    {
+      "id": 13,
+      "url": "images/OtherImages/PXP-1510.jpg",
+      "teamName": "Thanksgiving For 2024 Gospel Football tournament",
+      "buttonName": "Visit the Event",
+      "path": "/thanksgiving",
+      "link": "thanksgiving"
+    }
+  ]

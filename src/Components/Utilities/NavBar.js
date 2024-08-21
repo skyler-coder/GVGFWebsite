@@ -1,21 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import {Activity, BagHeart, Book, FilePerson, Folder, House, Images, Phone, PhoneFill} from 'react-bootstrap-icons'
 
 function NavBar() {
-  const[hide, setHide] = useState()
-  const[hide1, setHide1] = useState()
-
-  useEffect(() => {
-    if(window.screen.availWidth < 650){
-      setHide(false)
-      setHide1(true)
-    }
-    else{
-      setHide(true)
-      setHide1(false)
-    }
-  },[])
   
   return (
     <div className='w-screen h-24 flex justify-start fixed bg-white justify-between'>

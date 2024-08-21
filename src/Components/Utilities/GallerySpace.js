@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link, Route } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import { ArrowLeft } from 'react-bootstrap-icons';
+import { Link} from 'react-router-dom';
 
 function App({title, id, ImagesPath, bigImage}) {
 
@@ -17,7 +15,7 @@ function App({title, id, ImagesPath, bigImage}) {
         <div className="h-screen w-full flex justify-center items-center">
             <img id={id}
             src={bigImage}
-            alt="Large Photo"
+            alt="Large img"
             className={`${
                 loaded ? 'opacity-100' : 'opacity-0'
             } transition-opacity duration-1000`}

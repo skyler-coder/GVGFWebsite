@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import images from "../Utilities/ImageDirectories/Gods_Alternative_to_Bloodshed_2013.json"
-import { Link, Route } from 'react-router-dom';
-import { ArrowLeft } from 'react-bootstrap-icons';
 
 function App({title, id}) {
   const [loaded, setLoaded] = useState(false);

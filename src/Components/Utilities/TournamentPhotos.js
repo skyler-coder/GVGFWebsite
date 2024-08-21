@@ -1,17 +1,19 @@
 import React, {useState, useEffect} from 'react';
 import images from '../Utilities/ImageDirectories/TeamImageDirectory/Teams.json'
-import { Link, Route } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { ArrowLeft } from 'react-bootstrap-icons';
 import { useLocation } from 'react-router-dom';
-import TournamentPhotos from '../Utilities/TournamentPhotos'
 import BigImages from '../Utilities/ImageDirectories/16TeamsPhotos.json'
 import LazyLoad from 'react-lazy-load';
 
 function App({title}) {
     const Currentlocation = useLocation().pathname
     const [loaded, setLoaded] = useState(false);
-    const [smallImageStyle, setSmallImageStyle] = useState({width: "100%",height: "100vh", backgroundSize: "cover"})
 
+    const smallImageStyle = {
+      width: "100%",height: "100vh", backgroundSize: "cover"
+    }
+    
   let newImage = {}
   let newImageArray = []
 
@@ -49,7 +51,7 @@ function App({title}) {
         <div className="h-screen w-full flex justify-center items-center">
             <img
             src={newBigImageArray[0].url}
-            alt="Large Photo"
+            alt="Page img"
             className={`${
                 loaded ? 'opacity-100' : 'opacity-0'
             } transition-opacity duration-1000`}
@@ -73,7 +75,7 @@ function App({title}) {
                 <LazyLoad>
                 <img
                     src={image.url}
-                    alt={image.alt}
+                    alt={"small img"}
                     className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75"
                     style={smallImageStyle}
                     />

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const background = 'images/backgrounds/image1.jpeg'
 
@@ -17,7 +16,7 @@ function Profile({imagesrc, text, title, attachement, moreDetails, SupportHead, 
               <p>{text3}</p>
               <p>{contact}</p>
             </div>
-            <div className="col-md-9 col-lg-5"><img src={imagesrc} alt="image" width="464" height="464" className='rounded-lg'/><p className=''>{moreDetails}</p>
+            <div className="col-md-9 col-lg-5"><img src={imagesrc} alt="img" width="464" height="464" className='rounded-lg'/><p className=''>{moreDetails}</p>
             </div>
           </div>
         </div>

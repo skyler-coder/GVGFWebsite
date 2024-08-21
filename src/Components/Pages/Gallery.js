@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import { ArrowLeft } from 'react-bootstrap-icons'
 import { Link } from 'react-router-dom'
-import GallerySpace from '../Utilities/GallerySpace'
-import Footer from './Footer'
 import Event from '../Utilities/Event'
 
 function Gallery() {

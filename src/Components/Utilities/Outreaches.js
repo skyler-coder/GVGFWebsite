@@ -1,5 +1,4 @@
 import React from 'react';
-import images from "../Utilities/ImageDirectories/CampusWatchImages.json"
 import Profile from './Profile';
 import ReverseProfile from './ReverseProfile';
 import FadeIn from './FadeIn';

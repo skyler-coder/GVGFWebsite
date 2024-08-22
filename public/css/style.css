@@ -9,6 +9,7 @@ button:focus {
 	outline: none !important;
 }
 
+
 button::-moz-focus-inner {
 	border: 0;
 }
@@ -1579,7 +1580,7 @@ textarea.form-input {
 }
 
 .list-primary > li > a {
-	color: #000;
+	color: #4b4b4b;
 }
 
 .list-primary > li > a:hover {

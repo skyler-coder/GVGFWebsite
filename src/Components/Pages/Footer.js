@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div id='contacts'>
 
-      <section className="pre-footer-corporate bg-overlay-darkest">
+      <section className="bg-neutral-900 p-8 text-neutral-500">
         <div className="container">
           <div className="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
             <div className="col-sm-10 col-md-6 col-lg-10 col-xl-3">
@@ -14,7 +14,7 @@ function Footer() {
             </div>
             <div className="col-sm-10 col-md-6 col-lg-3 col-xl-3">
               <h6>Navigation</h6>
-              <ul className="list-xxs list-primary">
+              <ul className="list-xxs list-primary py-4 text-neutral-300">
                 <li><Link to={"/aboutus"}>What We Do In God's Vineyard</Link></li>
                 <li><Link to={"/aboutus"}>Our Mission</Link></li>
                 <li><Link to={"/homepage"}>Who we are</Link></li>

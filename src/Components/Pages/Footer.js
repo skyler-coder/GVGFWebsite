@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div id='contacts'>
 
-      <section className="pre-footer-corporate bg-image-7 bg-overlay-darkest">
+      <section className="pre-footer-corporate bg-overlay-darkest">
         <div className="container">
           <div className="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
             <div className="col-sm-10 col-md-6 col-lg-10 col-xl-3">

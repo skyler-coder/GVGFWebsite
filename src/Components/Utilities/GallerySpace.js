@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link} from 'react-router-dom';
+import { ArrowLeft } from 'react-bootstrap-icons';
 
 function App({title, id, ImagesPath, bigImage}) {
 
@@ -11,6 +12,9 @@ function App({title, id, ImagesPath, bigImage}) {
 
   return (
     <div className='w-screen h-auto' >
+        <div className='w-screen h-16 bg-white fixed p-4 opacity-100 z-10'>
+            <Link to={'/Gallery'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
+        </div>
         <div className="h-auto w-screen">
         <div className="h-screen w-full flex justify-center items-center">
             <img id={id}

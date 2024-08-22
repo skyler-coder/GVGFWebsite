@@ -6,7 +6,7 @@ function Books() {
   return (
     <div>
       <div className='w-screen h-16 bg-white p-4 opacity-100 fixed z-10'>
-        <Link to={'/homepage'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
+        <Link to={'/'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
       </div>
       <h1 className='text-3xl text-center pt-16'>GOD'S VINEYARD TEACHING MANUALS</h1>
         <div className='w-screen h-auto flex flex-wrap justify-around p-4'>

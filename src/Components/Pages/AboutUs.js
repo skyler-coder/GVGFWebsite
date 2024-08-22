@@ -12,7 +12,7 @@ function AboutUs() {
   return (
     <div>
       <div className='w-screen h-16 bg-white fixed p-4 opacity-100 z-10'>
-        <Link to={'/homepage'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
+        <Link to={'/'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
       </div>
         {/* Image Section */}
         <div className='pt-16'>

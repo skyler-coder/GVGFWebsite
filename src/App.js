@@ -23,6 +23,7 @@ function App() {
   return (
     <div className='w-screen h-auto'>
       <Routes>
+        <Route path="/" element={<Preloader />} />
         <Route path="/homepage" element={<HomePage />} />
         <Route path="/gallery" element={<Gallery />} />
         {imageIds.map((link, index) => (

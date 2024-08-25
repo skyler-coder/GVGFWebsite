@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link} from 'react-router-dom';
 import { ArrowLeft } from 'react-bootstrap-icons';
 
-function App({title, id, ImagesPath, bigImage}) {
+function App({title, id, ImagesPath, bigImage, buttonName}) {
 
   const [loaded, setLoaded] = useState(false);
 
@@ -49,6 +49,7 @@ function App({title, id, ImagesPath, bigImage}) {
                             className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75"
                             />
                             <div className="absolute bottom-0 left-0 w-full text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <div>Visit the Event</div>
                             <div className='w-auto h-auto bg-neutral-900'><p className="text-white text-2xl">{image.teamName}</p></div>
                             </div>
                         </Link>

@@ -17,7 +17,7 @@ function Footer() {
               <ul className="list-xxs list-primary py-4 text-neutral-300">
                 <li><Link to={"/aboutus"}>What We Do In God's Vineyard</Link></li>
                 <li><Link to={"/aboutus"}>Our Mission</Link></li>
-                <li><Link to={"/homepage"}>Who we are</Link></li>
+                <li><Link to={"/"}>Who we are</Link></li>
                 <li><Link to={`/Gallery`}>Our Posts</Link></li>
               </ul>
             </div>

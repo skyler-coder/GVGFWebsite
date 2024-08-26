@@ -18,9 +18,9 @@ function Event({bigImage, title, eventPath, buttonName}) {
                     }}
                     />
             <div
-            className= 'transition-transform duration-1000 absolute left-1/2 text-center transform -translate-x-1/2 -translate-y-1/2 sm:text-3xl text-lg text-white font-bold'
+            className= 'transition-transform duration-1000 absolute left-1/2 text-center transform -translate-x-1/2 -translate-y-1/12 sm:text-3xl text-lg text-white font-bold'
             >
-            {title}
+            <div className='bg-neutral-800 rounded-lg p-2'>{title}</div>
             <br/>
             <Link to={eventPath}>
                 <div>

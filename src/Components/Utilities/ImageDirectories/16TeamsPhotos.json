@@ -104,5 +104,13 @@
       "buttonName": "Visit the Event",
       "path": "/thanksgiving",
       "link": "thanksgiving"
+    },
+    {
+      "id": 14,
+      "url": "images/TeamPhotos/awardceremony/PXP-1291.jpg",
+      "teamName": "Award Ceremony",
+      "buttonName": "Visit the Event",
+      "path": "/awardceremony",
+      "link": "awardceremony"
     }
   ]

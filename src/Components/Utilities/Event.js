@@ -20,7 +20,7 @@ function Event({bigImage, title, eventPath, buttonName}) {
             <div
             className= 'transition-transform duration-1000 absolute left-1/2 text-center transform -translate-x-1/2 -translate-y-1/12 sm:text-3xl text-lg text-white font-bold'
             >
-            <div className='bg-neutral-800 rounded-lg p-2'>{title}</div>
+            <div className='bg-neutral-800 rounded-lg p-2 shadow-sm'>{title}</div>
             <br/>
             <Link to={eventPath}>
                 <div>

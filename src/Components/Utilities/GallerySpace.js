@@ -20,7 +20,22 @@ function App({ title, id, ImagesPath, bigImage, buttonName }) {
         <div className='w-screen h-16 bg-white fixed p-4 opacity-100 z-10'>
             <Link to={'/gallery'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
         </div>
-      {/* ... */}
+        <div className="h-screen w-full flex justify-center items-center">
+                    <img
+                    src={bigImage}
+                    alt="Large Photo"
+                    style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                    }}
+                    />
+                <div
+                className= 'transition-transform duration-1000 absolute left-1/2 text-center transform -translate-x-1/2 -translate-y-1/12 sm:text-3xl text-lg text-white font-bold'
+                >
+                <div className='bg-neutral-800 rounded-lg p-2'>{title}</div>
+                </div>
+            </div>
       <div className="h-1/2 w-full p-4 grid grid-cols-2 gap-4">
         {ImagesPath.map((image, index) => (
           <div key={index} className="relative group">

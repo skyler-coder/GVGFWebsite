@@ -33,6 +33,7 @@ function App() {
         <Route path='/tournament2024' element={<GallerySpace ImagesPath={tournament2024} bigImage={"images/Carousel_Images/16_team_photos/PXP-9969.jpg"} title={"God's Vineyard Gospel Tournament 2024"} id={"tournament"}/>}/>
         <Route path='/GodsAlternativetoBloodshed' element={<GallerySpace title={"God's Alternative to Bloodshed 2013"} id={"GodsAlternativetoBloodshed"} ImagesPath={alternativetobloodshed} bigImage={"images/God's_Alternative_to_bloodshed/20240817_200524 (1).jpg"}/>}/>
         <Route path='/weaponsofourwarfare' element={<GallerySpace title={"Weapons Of Our Warfare"} id={"WeaponsOfOurWarfare"} ImagesPath={weaponsofourwarfare} bigImage={"images/WeaponsOfOurWarfare/WhatsApp Image 2024-08-21 at 07.59.19.jpeg"}/>}/>
+        <Route path={``}/>
       </Routes>
       <FadeIn bodyText={
         <Footer/>

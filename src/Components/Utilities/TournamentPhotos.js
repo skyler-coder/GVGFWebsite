@@ -45,7 +45,7 @@ function App({title}) {
     <div className='w-screen h-auto'>
         
         <div className='w-screen h-16 bg-white fixed p-4 opacity-100 z-10'>
-            <Link to={'/gallery'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
+            <Link to={'/tournament2024'} className='z-10'><ArrowLeft className='w-8 h-8'/></Link>
         </div>
         <div className="h-auto w-screen">
         <div className="h-screen w-full flex justify-center items-center">
@@ -69,21 +69,23 @@ function App({title}) {
             {newBigImageArray[0].teamName}
             </div>
         </div>
-        <div className="h-1/2 sm:w-full w-screen p-4 grid sm:grid-cols-2 gap-4">
+        <div className="h-1/2 w-full p-4 grid sm:grid-cols-2 gap-4">
             {newImageArray.map((image, index) => (
-            <div key={index} className="relative group">
+            <a href={`${image.url}`}>
+              <div key={index} className="relative group">
                 <LazyLoad>
-                <img
-                    src={image.url}
-                    alt={"small img"}
-                    className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75"
-                    style={smallImageStyle}
-                    />
-                </LazyLoad>
-                <div className="absolute bottom-0 left-0 w-full text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className='w-auto h-auto bg-neutral-900'><p className="text-white text-2xl">{image.teamName}</p></div>
-                </div>
-            </div>
+                  <img
+                      src={image.url}
+                      alt={"small img"}
+                      className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-75"
+                      style={smallImageStyle}
+                      />
+                  </LazyLoad>
+                  <div className="absolute bottom-0 left-0 w-full text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className='w-auto h-auto bg-neutral-900'><p className="text-white text-2xl">{image.teamName}</p></div>
+                  </div>
+              </div>
+            </a>
             ))}
         </div>
         </div>

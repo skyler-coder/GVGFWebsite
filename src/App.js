@@ -1,6 +1,6 @@
 import './App.css';
 import Preloader from './Components/Utilities/Preloader';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './Components/Pages/Home/HomePage'
 import Gallery from './Components/Pages/Gallery';
 import TournamentPhotos from './Components/Utilities/TournamentPhotos'
@@ -22,22 +22,24 @@ function App() {
 
   return (
     <div className='w-screen h-auto'>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/gallery" element={<Gallery />} />
-        {imageIds.map((link, index) => (
-          <Route key={index} path={`/${link}`} element={<TournamentPhotos />} />
-        ))}
-        <Route path='/books' element={<Books/>}/>
-        <Route path='/aboutus' element={<AboutUs/>}/>
-        <Route path='/tournament2024' element={<GallerySpace ImagesPath={tournament2024} bigImage={"images/Carousel_Images/16_team_photos/PXP-9969.jpg"} title={"God's Vineyard Gospel Tournament 2024"} id={"tournament"}/>}/>
-        <Route path='/GodsAlternativetoBloodshed' element={<GallerySpace title={"God's Alternative to Bloodshed in Nigeria"} id={"GodsAlternativetoBloodshed"} ImagesPath={alternativetobloodshed} bigImage={"images/God's_Alternative_to_bloodshed/20240817_200524 (1).jpg"}/>}/>
-        <Route path='/weaponsofourwarfare' element={<GallerySpace title={"Weapons Of Our Warfare"} id={"WeaponsOfOurWarfare"} ImagesPath={weaponsofourwarfare} bigImage={"images/WeaponsOfOurWarfare/WhatsApp Image 2024-08-21 at 07.59.19.jpeg"}/>}/>
-        <Route path={``}/>
-      </Routes>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gallery" element={<Gallery />} />
+            {imageIds.map((link, index) => (
+              <Route key={index} path={`/${link}`} element={<TournamentPhotos />} />
+            ))}
+            <Route path='/books' element={<Books/>}/>
+            <Route path='/aboutus' element={<AboutUs/>}/>
+            <Route path='/tournament2024' element={<GallerySpace ImagesPath={tournament2024} bigImage={"images/Carousel_Images/16_team_photos/PXP-9969.jpg"} title={"God's Vineyard Gospel Tournament 2024"} id={"tournament"}/>}/>
+            <Route path='/GodsAlternativetoBloodshed' element={<GallerySpace title={"God's Alternative to Bloodshed in Nigeria"} id={"GodsAlternativetoBloodshed"} ImagesPath={alternativetobloodshed} bigImage={"images/God's_Alternative_to_bloodshed/20240817_200524 (1).jpg"}/>}/>
+            <Route path='/weaponsofourwarfare' element={<GallerySpace title={"Weapons Of Our Warfare"} id={"WeaponsOfOurWarfare"} ImagesPath={weaponsofourwarfare} bigImage={"images/WeaponsOfOurWarfare/WhatsApp Image 2024-08-21 at 07.59.19.jpeg"}/>}/>
+            <Route path={``}/>
+          </Routes>
       <FadeIn bodyText={
         <Footer/>
       }/>
+      </BrowserRouter>
     </div>
   );
 }

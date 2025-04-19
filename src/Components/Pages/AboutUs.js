@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'react-bootstrap-icons';
-import { useEffect } from 'react';
 const image = "images/church_images/20240817_124141.jpg"
 
 function AboutUs() {

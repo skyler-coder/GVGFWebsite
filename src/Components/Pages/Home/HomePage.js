@@ -6,6 +6,7 @@ import SupportPage from '../SupportPage'
 import Outreaches from '../../Utilities/Outreaches'
 import Activities from '../../Utilities/Activities'
 import Pastorial from '../../Utilities/Pastorial'
+import HappyBirthdayTheme from '../HappyBirthdayTheme'
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
             <NavBar/>
           </header>
            <Home/>
+           <HappyBirthdayTheme/>
            <Pastorial/>
           <Outreaches/>
           <Activities/>
